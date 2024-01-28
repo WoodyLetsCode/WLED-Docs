@@ -13,16 +13,17 @@ Instead, installing Visual Studio Code and its PlatformIO (PIO) extension is eas
 ### Installation guide (PlatformIO, recommended)
 
 0. Make sure Git client is installed on your system. If it isn't, you can get it [here](https://git-scm.com/downloads).
-1. Download and install the free [Visual Studio Code](https://code.visualstudio.com/) by Microsoft.
-2. Open VS Code and go to the Extensions manager (the icon with the stacked blocks in the left bar)
-3. Search for `platformio ide` and install the PlatformIO extension
+1. Also make sure that you have [Node.js](https://nodejs.org/en/download) 20 or higher installed.
+2. Download and install the free [Visual Studio Code](https://code.visualstudio.com/) by Microsoft.
+3. Open VS Code and go to the Extensions manager (the icon with the stacked blocks in the left bar)
+4. Search for `platformio ide` and install the PlatformIO extension
 ![](https://i.ibb.co/SNv8TtH/Screen-Shot-2020-11-03-at-6-27-58-PM.png)
-4. Download the WLED source code by executing `git clone https://github.com/Aircoookie/WLED.git` in some folder.
+5. Download the WLED source code by executing `git clone https://github.com/Aircoookie/WLED.git` in some folder.
 (You can also use GitHub Desktop or download the latest source code from [https://github.com/Aircoookie/WLED](https://github.com/Aircoookie/WLED) under the `Code` dropdown menu as a .zip file.)
 Alternatively fork the WLED project first and download it from your fork.
 ![](https://i.ibb.co/2hnGhyb/Screen-Shot-2020-11-03-at-5-25-18-PM.png)
 
-5. Go to `File -> Open Folder` and open that root WLED folder (the one that contains `platformio.ini`, _NOT_ the `wled00` folder)
+6. Go to `File -> Open Folder` and open that root WLED folder (the one that contains `platformio.ini`, _NOT_ the `wled00` folder)
 ![](https://i.ibb.co/pXs1G0j/Screen-Shot-2020-11-03-at-5-27-03-PM.png)
 ![](https://i.ibb.co/10ykGxk/Screen-Shot-2020-11-03-at-5-27-17-PM.png)
 ---
